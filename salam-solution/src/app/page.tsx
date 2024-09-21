@@ -1,7 +1,13 @@
 import Image from "next/image";
-import { ArrowRight, Globe, Code, Layout } from 'lucide-react';
+import { ArrowRight, Globe, Code, Layout, LucideIcon  } from 'lucide-react';
 
-const ServiceCard = ({ icon, title, description }) => (
+interface ServiceCardProps {
+  icon: React.ReactElement<LucideIcon>;
+  title: string;
+  description: string;
+}
+
+const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description }) => (
   <div className="bg-white p-6 rounded-lg shadow-md">
     <div className="text-blue-600 mb-4">{icon}</div>
     <h3 className="text-xl font-semibold mb-2">{title}</h3>
@@ -11,6 +17,7 @@ const ServiceCard = ({ icon, title, description }) => (
     </a>
   </div>
 );
+
 
 export default function Home() {
   return (
