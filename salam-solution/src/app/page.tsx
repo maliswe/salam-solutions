@@ -37,14 +37,14 @@ export default function Home() {
         preTitle="Client Success Stories"
         title="What Our Clients Say About Us"
       >
-        Don't just take our word for it. Here's what some of our satisfied clients have to say about 
+        Don&apos;t just take our word for it. Here&apos;s what some of our satisfied clients have to say about 
         their experience working with Salam Solutions.
       </SectionTitle>
 
       <Testimonials />
 
       <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Got questions? We've got answers. Check out our FAQ section to learn more about our services, 
+        Got questions? We&apos;ve got answers. Check out our FAQ section to learn more about our services, 
         process, and how we can help your business succeed.
       </SectionTitle>
 
